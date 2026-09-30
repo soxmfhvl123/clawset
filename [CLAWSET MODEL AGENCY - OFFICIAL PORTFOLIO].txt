@@ -1,0 +1,315 @@
+[CLAWSET MODEL AGENCY - OFFICIAL PORTFOLIO]
+01. LUKA (루카) | 샴 링스 포인트
+Name: LUKA
+
+D.O.B: 2021. 02. 12
+
+Place / Nationality: Paris, France (프랑스)
+
+Keywords: Sharp, Sleek, Futuristic
+
+Hobby: High-jump (높이뛰기)
+
+Habit: Tail flicking (꼬리 까딱거리기)
+
+Favorite: Vermilion (버밀리온 레드)
+
+02. ONYX (오닉스) | 아비시니안
+Name: ONYX
+
+D.O.B: 2020. 05. 05
+
+Place / Nationality: Cairo, Egypt (이집트)
+
+Keywords: Noble, Golden, Ancient
+
+Hobby: Shadow hunting (그림자 쫓기)
+
+Habit: Slow blinking (느리게 눈 깜빡이기)
+
+Favorite: Ochre (황토색, 오커)
+
+03. TUCO (투코) | 러시안 블루
+Name: TUCO
+
+D.O.B: 2021. 08. 21
+
+Place / Nationality: Moscow, Russia (러시아)
+
+Keywords: Velvet, Silent, Stoic
+
+Hobby: Dust particle tracking (먼지 움직임 관찰)
+
+Habit: Kneading (꾹꾹이)
+
+Favorite: Emerald Green (에메랄드 그린)
+
+04. BIANCA (비앙카) | 페르시안 친칠라
+Name: BIANCA
+
+D.O.B: 2019. 12. 25
+
+Place / Nationality: Tehran, Iran (이란)
+
+Keywords: Diva, Couture, Majestic
+
+Hobby: Being groomed (털 관리 받기)
+
+Habit: Chin resting (턱 괴고 있기)
+
+Favorite: Pearl White (펄 화이트)
+
+05. DUPREE (뒤프레) | 뱅갈
+Name: LEOPARD DUPREE
+
+D.O.B: 2022. 03. 14
+
+Place / Nationality: Mumbai, India (인도)
+
+Keywords: Wild, Powerful, Exotic
+
+Hobby: Laser tag (레이저 포인터 잡기)
+
+Habit: Pouncing (사냥 자세 취하기)
+
+Favorite: Charcoal (차콜 블랙)
+
+06. ARTHUR (아더) | 브리티시 숏헤어
+Name: ARTHUR
+
+D.O.B: 2020. 06. 30
+
+Place / Nationality: London, UK (영국)
+
+Keywords: Classic, Solid, Serene
+
+Hobby: People watching (사람 구경하기)
+
+Habit: Napping upright (앉아서 졸기)
+
+Favorite: Navy Blue (네이비 블루)
+
+07. VALKA (발카) | 메인쿤 실버태비
+Name: VALKA
+
+D.O.B: 2018. 11. 11
+
+Place / Nationality: Oslo, Norway (노르웨이)
+
+Keywords: Legend, Northern, Rugged
+
+Hobby: Bird watching (창밖 새 구경)
+
+Habit: Chirping (채터링, 새 소리 흉내 내기)
+
+Favorite: Frosted Silver (프로스테드 실버)
+
+08. JINX (징크스) | 터키시 앙고라
+Name: JINX
+
+D.O.B: 2021. 01. 01
+
+Place / Nationality: Rome, Italy (이탈리아)
+
+Keywords: Graphic, Avant-garde, Dark
+
+Hobby: Singing (우아하게 울기)
+
+Habit: Paw stretching (앞발 쭉 뻗기)
+
+Favorite: Espresso (에스프레소 브라운)
+
+09. ROMAN (로만) | 샴
+Name: ROMAN
+
+D.O.B: 2019. 09. 09
+
+Place / Nationality: Portland, USA (미국)
+
+Keywords: Rustic, Cinema, Earthy
+
+Hobby: Hiking (산책 고양이)
+
+Habit: Head-butting (머리 들이밀기)
+
+Favorite: Forest Green (포레스트 그린)
+
+10. SOREN (소렌) | 노르웨이 숲
+Name: SOREN
+
+D.O.B: 2022. 03. 03
+
+Place / Nationality: Addis Ababa, Ethiopia (에티오피아)
+
+Keywords: Bohemian, Fluid, Soft
+
+Hobby: Feather play (깃털 장난감 놀이)
+
+Habit: Tail waving (꼬리 살랑거리기)
+
+Favorite: Burnt Orange (번트 오렌지)
+
+11. KAEL (카엘) | 브리티시 숏헤어
+Name: KAEL
+
+D.O.B: 2021. 04. 02
+
+Place / Nationality: Berlin, Germany (독일)
+
+Keywords: Solid, Reliable, Quiet
+
+Hobby: Cube sitting (네모난 박스 들어가기)
+
+Habit: Ear twitching (귀 쫑긋거리기)
+
+Favorite: Slate Grey (슬레이트 그레이)
+
+12. ZANE (제인) | 소말리
+Name: ZANE
+
+D.O.B: 2022. 07. 17
+
+Place / Nationality: London, UK (영국)
+
+Keywords: Icon, Geometric, Alien-chic
+
+Hobby: Puzzle toys (노즈워크 퍼즐 풀기)
+
+Habit: High-perching (높은 곳에 올라가 앉아있기)
+
+Favorite: Pale Lilac (페일 라일락)
+
+13. LUCIAN (루시안) | 봄베이
+Name: LUCIAN
+
+D.O.B: 2021. 02. 28
+
+Place / Nationality: Lyon, France (프랑스)
+
+Keywords: Smart, Velvet, Monotone
+
+Hobby: Fetching (공 물어오기)
+
+Habit: Muzzle twitching (수염 파르르 떨기)
+
+Favorite: Copper Gold (코퍼 골드)
+
+14. ANYA (안야) | 랙돌
+Name: ANYA
+
+D.O.B: 2021. 05. 19
+
+Place / Nationality: St. Petersburg, Russia (러시아)
+
+Keywords: Dreamy, Cloud, Silk
+
+Hobby: Cuddling (품에 안겨있기)
+
+Habit: Flopping (바닥에 툭 쓰러지며 눕기)
+
+Favorite: Sky Blue (스카이 블루)
+
+15. MILO (마일로) | 스코티시 폴드
+Name: MILO
+
+D.O.B: 2020. 10. 10
+
+Place / Nationality: Tokyo, Japan (일본)
+
+Keywords: Minimal, Round, Composed
+
+Hobby: Window gazing (가만히 바깥 풍경 보기)
+
+Habit: Sitting like a human (사람처럼 엉덩이 대고 앉기)
+
+Favorite: Soft Beige (소프트 베이지)
+
+16. JACKSON (잭슨) | 샴
+Name: JACKSON
+
+D.O.B: 2021. 06. 15
+
+Place / Nationality: New York, USA (미국)
+
+Keywords: High-gloss, Panther, Urban
+
+Hobby: Acrobatics (공중 점프)
+
+Habit: Leg rubbing (사람 다리에 몸 비비기)
+
+Favorite: Champagne Gold (샴페인 골드)
+
+17. CASPIAN (카스피안) | 터키시 반
+Name: CASPIAN
+
+D.O.B: 2020. 08. 12
+
+Place / Nationality: Van, Turkey (터키)
+
+Keywords: Athletic, Auburn, Contrasted
+
+Hobby: Water splashing (물그릇에 앞발 담그고 장난치기)
+
+Habit: Tail thumping (꼬리로 바닥 탁탁 치기)
+
+Favorite Color: Terracotta (테라코타 오렌지)
+
+18. FREYA (프레이야) | 시베리안
+Name: FREYA
+
+D.O.B: 2019. 01. 15
+
+Place / Nationality: Novosibirsk, Russia (러시아)
+
+Keywords: Majestic, Triple-coat, Sovereign
+
+Hobby: Snow gazing (창밖에 내리는 눈 멍하니 보기)
+
+Habit: Heavy purring (묵직한 골골송)
+
+Favorite Color: Ice Silver (아이스 실버)
+
+19. GIDEON (기디온) | 아메리칸 컬
+Name: GIDEON
+
+D.O.B: 2021. 09. 01
+
+Place / Nationality: California, USA (미국)
+
+Keywords: Sculptural, Alert, Curvature
+
+Hobby: Unlocking doors (문고리 점프해서 열기)
+
+Habit: Tilting head 45 degrees (고개 45도 꺾기)
+
+Favorite Color: Mustard Yellow (머스터드 옐로우)
+
+20. OPHELIA (오필리아) | 발리네즈
+Name: OPHELIA
+
+D.O.B: 2022. 05. 24
+
+Place / Nationality: San Francisco, USA (미국)
+
+Keywords: Fluid, Aristocratic, Sapphire
+
+Hobby: Following shadows (느릿하게 그림자 밟기)
+
+Habit: Elegant tail wrapping (앉을 때 꼬리로 앞발 감싸기)
+
+Favorite Color: Lavender White (라벤더 화이트)
+
+21. TILLY (틸리) | 먼치킨
+Name: TILLY
+
+D.O.B: 2023. 01. 05
+
+Place / Nationality: New York, USA (미국)
+
+Keywords: Poised, Compact, Bold
+
+Hobby: Standing on hind legs (뒷발로 서서 중심 잡기)
+
+Habit: Toy hoarding (장난감 모아두기)
+
+Favorite Color: Pastel Coral (파스텔 코랄)

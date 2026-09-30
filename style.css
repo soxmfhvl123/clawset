@@ -1,0 +1,468 @@
+/* =============================================
+   CLAWSET MODEL AGENCY — Stylesheet
+   Swiss / grotesk, black ground (ref. futurneue.cc)
+   ============================================= */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #000000;
+  --fg: #ffffff;
+  --dim: rgba(255, 255, 255, 0.55);
+  --line: rgba(255, 255, 255, 0.22);
+
+  --font: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;
+
+  --gutter: 14px;
+  --big: clamp(28px, 4.1vw, 60px);
+  --mid: clamp(20px, 2vw, 28px);
+  --small: 14px;
+  --media-w: min(64vw, 62vh);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 64px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: var(--small);
+  line-height: 1.2;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Underlined links, like the reference */
+.intro-text a,
+.section-links a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.12em;
+}
+
+.intro-text a:hover,
+.section-links a:hover,
+.topbar-nav a:hover {
+  color: var(--dim);
+}
+
+/* ══════════════════════════════════════
+   TOP BAR
+══════════════════════════════════════ */
+.topbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px var(--gutter);
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+
+/* Hero logo — JS scales it from full width down to the top-left corner */
+.hero-logo {
+  position: fixed;
+  top: 12px;
+  left: var(--gutter);
+  z-index: 101;
+  transform-origin: 0 0;
+  will-change: transform;
+  mix-blend-mode: difference;
+}
+
+.hero-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: invert(1);
+}
+
+.topbar-nav {
+  display: flex;
+  gap: 1.1em;
+  font-size: var(--mid);
+  letter-spacing: -0.01em;
+  pointer-events: auto;
+  /* opacity driven by JS — fades in as the logo gets out of the way */
+}
+
+/* Vertical credit on the right edge */
+.side-credit {
+  position: fixed;
+  right: 4px;
+  bottom: var(--gutter);
+  z-index: 90;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  mix-blend-mode: difference;
+}
+
+main {
+  padding: 0 calc(var(--gutter) + 18px) 0 var(--gutter);
+}
+
+/* ══════════════════════════════════════
+   INTRO
+══════════════════════════════════════ */
+.intro {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 120px 0 var(--gutter);
+}
+
+.intro-text {
+  font-size: var(--big);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  max-width: 30em;
+}
+
+.section-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.6em;
+  margin-top: 1.2em;
+  font-size: var(--big);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.section-title {
+  font-size: var(--big);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.6em;
+}
+
+/* ══════════════════════════════════════
+   MODELS — stacked entries
+══════════════════════════════════════ */
+.models {
+  padding-top: 18vh;
+}
+
+.models-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16vh;
+}
+
+/* Desktop: no click needed — details open on scroll */
+.model-entry {
+  cursor: default;
+}
+
+/* Small spec table above image */
+.spec {
+  display: grid;
+  grid-template-columns: 5.5em 1fr;
+  column-gap: 1em;
+  font-size: var(--small);
+  line-height: 1.15;
+  margin-bottom: 6px;
+}
+
+.spec dt { color: var(--fg); }
+.spec dd { color: var(--fg); }
+
+.entry-media {
+  position: relative;
+  width: var(--media-w);
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: #111;
+}
+
+.entry-media img,
+.entry-media video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+}
+
+.entry-media video {
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+}
+
+.model-entry:hover .entry-media video.ready {
+  opacity: 1;
+}
+
+.entry-number {
+  position: absolute;
+  left: 10px;
+  bottom: 8px;
+  z-index: 2;
+  font-size: var(--mid);
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+
+/* ══════════════════════════════════════
+   INDEX TABLE
+══════════════════════════════════════ */
+.index {
+  padding-top: 24vh;
+}
+
+.index-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--mid);
+  letter-spacing: -0.01em;
+}
+
+.index-table th {
+  text-align: left;
+  font-weight: 400;
+  font-size: var(--small);
+  padding: 0 0 8px;
+  border-bottom: 1px solid var(--fg);
+}
+
+.index-table td {
+  padding: 8px 1em 8px 0;
+  border-bottom: 1px solid var(--line);
+  vertical-align: baseline;
+}
+
+.index-table tbody tr {
+  cursor: pointer;
+}
+
+.index-table tbody tr:hover td {
+  color: var(--dim);
+}
+
+.index-table td:first-child,
+.index-table th:first-child {
+  width: 4em;
+}
+
+/* ══════════════════════════════════════
+   CONTACT / FOOTER
+══════════════════════════════════════ */
+.contact {
+  padding: 24vh 0 var(--gutter);
+}
+
+.contact-text {
+  font-size: var(--big);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.contact-copy {
+  margin-top: 20vh;
+  font-size: var(--small);
+}
+
+/* ══════════════════════════════════════
+   DETAIL PANEL
+   Desktop: panel sits beside the active image, aligned to its top and bottom
+══════════════════════════════════════ */
+.entry-media { max-width: 100%; }
+
+.detail-panel {
+  /* top / left / height set by JS to match the active image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: calc(var(--gutter) + 18px);
+  z-index: 95;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(24px);
+  transition: opacity 0.35s ease, transform 0.5s var(--ease-out), visibility 0s linear 0.5s;
+}
+
+body.detail-open .detail-panel {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+  transition: opacity 0.35s ease, transform 0.5s var(--ease-out), visibility 0s;
+}
+
+.detail-close {
+  display: none; /* desktop panel opens/closes on scroll */
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  background: none;
+  border: none;
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: var(--small);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  padding: 0 0 6px 8px;
+}
+
+.detail-close:hover { color: var(--dim); }
+
+.detail-inner {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter);
+}
+
+.detail-name {
+  font-size: clamp(40px, 5.5vw, 96px);
+  font-weight: 400;
+  line-height: 0.88;
+  letter-spacing: -0.04em;
+  padding-right: 3em; /* room for Close */
+  margin-top: -0.065em; /* pull cap height up to the image top edge */
+}
+
+.detail-lede {
+  font-size: var(--mid);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  margin: 0.35em 0 0.9em;
+}
+
+.detail-stats {
+  display: grid;
+  grid-template-columns: 6em 1fr;
+  column-gap: 1em;
+  row-gap: 2px;
+  font-size: var(--small);
+  line-height: 1.2;
+  border-top: 1px solid var(--fg);
+  padding-top: 8px;
+}
+
+/* Runway scene slot — fills the rest of the panel below the info */
+.detail-runway {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Show the whole (portrait) runway clip, flush left, filling the slot height */
+.detail-runway video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left top;
+}
+
+.detail-runway.is-empty {
+  border: 1px dashed var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--line);
+  font-size: var(--small);
+}
+
+/* Selected index row */
+.index-table tbody tr.is-active td { color: var(--dim); }
+
+/* ══════════════════════════════════════
+   BACK TO TOP
+══════════════════════════════════════ */
+.to-top {
+  position: fixed;
+  right: calc(var(--gutter) + 18px);
+  bottom: var(--gutter);
+  z-index: 96;
+  background: none;
+  border: none;
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: var(--mid);
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.12em;
+  mix-blend-mode: difference;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.to-top:hover { color: var(--dim); }
+
+/* ══════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════ */
+@media (max-width: 860px) {
+  .entry-media { width: 100%; }
+  .models-list { gap: 10vh; }
+
+  /* Narrow screens: no split — panel slides in from the right over the page */
+  .detail-panel {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    padding: 12px var(--gutter) var(--gutter);
+    transform: translateX(100%);
+    opacity: 1;
+    overflow-y: auto;
+  }
+
+  .model-entry { cursor: pointer; }
+  .detail-close { display: block; top: 12px; right: var(--gutter); font-size: var(--mid); }
+  .detail-inner { flex: none; padding-top: 44px; }
+  .detail-runway { flex: none; aspect-ratio: 16 / 9; }
+}
+
+@media (max-width: 560px) {
+  :root { --gutter: 12px; }
+  .col-hide { display: none; }
+  .topbar-nav { font-size: 16px; }
+}
+
+/* scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: #444; }

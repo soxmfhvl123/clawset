@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLAWSET — High-End Cat Model Agency</title>
+  <meta name="description" content="CLAWSET is a premier high-end cat model agency representing the world's most distinguished feline talents." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <!-- Hero logo — full width at top, shrinks toward the top-left on scroll -->
+  <a href="#top" class="hero-logo" id="heroLogo" aria-label="CLAWSET — top">
+    <img src="1x/clawset.png" alt="CLAWSET" />
+  </a>
+
+  <header class="topbar">
+    <nav class="topbar-nav" id="topbarNav">
+      <a href="#models">Models</a>
+      <a href="#index">Index</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Vertical side credit -->
+  <div class="side-credit" aria-hidden="true">© Clawset Model Agency — 2024</div>
+
+  <main id="top">
+
+    <!-- INTRO -->
+    <section class="intro">
+      <p class="intro-text" id="introText"></p>
+      <nav class="section-links">
+        <a href="#models">Models</a>
+        <a href="#index">Index</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </section>
+
+    <!-- MODELS — stacked entries -->
+    <section class="models" id="models">
+      <div class="models-list" id="modelsList"></div>
+    </section>
+
+    <!-- INDEX — table of all models -->
+    <section class="index" id="index">
+      <h2 class="section-title">Index</h2>
+      <table class="index-table">
+        <thead>
+          <tr><th>No.</th><th>Name</th><th>Breed</th><th class="col-hide">Origin</th><th class="col-hide">D.O.B</th></tr>
+        </thead>
+        <tbody id="indexBody"></tbody>
+      </table>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <footer class="contact" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-text">
+        Seoul, Paris, New York, London, Tokyo.<br />
+        Bookings for editorial, campaign and runway work.
+      </p>
+      <p class="contact-copy">© 2024 Clawset Model Agency</p>
+    </footer>
+
+  </main>
+
+  <!-- MODEL DETAIL — right-side panel -->
+  <aside class="detail-panel" id="detailPanel" aria-hidden="true">
+    <button class="detail-close" id="detailClose" aria-label="Close">Close</button>
+    <div class="detail-inner" id="detailInner"></div>
+  </aside>
+
+  <!-- Back to top -->
+  <button class="to-top" id="toTop" aria-label="Back to top">Top ↑</button>
+
+  <script src="main.js"></script>
+</body>
+</html>

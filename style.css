@@ -212,7 +212,7 @@ main {
   pointer-events: none;
 }
 
-.model-entry:hover .entry-media video.ready {
+.entry-media:hover video.ready {
   opacity: 1;
 }
 
@@ -368,22 +368,60 @@ body.detail-open .detail-panel {
   padding-top: 8px;
 }
 
-/* Runway scene slot — fills the rest of the panel below the info */
+/* Runway slot — fills the rest of the panel below the info.
+   Runway clip + lookbook photos in one row at the slot's full height;
+   the whole row loops left as a marquee. */
 .detail-runway {
   position: relative;
   flex: 1;
   min-height: 0;
+  display: flex;
+  gap: var(--gutter);
   overflow: hidden;
 }
 
-/* Show the whole (portrait) runway clip, flush left, filling the slot height */
-.detail-runway video {
-  position: absolute;
-  inset: 0;
-  width: 100%;
+.detail-runway video,
+.detail-runway img {
+  display: block;
+  flex: none;
   height: 100%;
-  object-fit: contain;
-  object-position: left top;
+  width: auto;
+  background: #111;
+}
+
+/* Runway clip + lookbook photos in one endless left-flowing strip (JS clones the set, adds .is-marquee) */
+.runway-looks {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.looks-track {
+  display: flex;
+  gap: var(--gutter);
+  height: 100%;
+  width: max-content;
+}
+
+.runway-looks.is-marquee .looks-track {
+  animation: looks-marquee var(--marquee-dur, 30s) linear infinite;
+}
+
+.runway-looks.is-marquee:hover .looks-track {
+  animation-play-state: paused;
+}
+
+@keyframes looks-marquee {
+  to { transform: translateX(var(--marquee-shift, -50%)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .runway-looks.is-marquee .looks-track { animation: none; }
+}
+
+.detail-runway video {
+  aspect-ratio: 544 / 800; /* runway clips are 544×800; lookbook clips set their own inline */
 }
 
 .detail-runway.is-empty {
@@ -450,10 +488,10 @@ body.detail-open .detail-panel {
     overflow-y: auto;
   }
 
-  .model-entry { cursor: pointer; }
+  .entry-media { cursor: pointer; }
   .detail-close { display: block; top: 12px; right: var(--gutter); font-size: var(--mid); }
   .detail-inner { flex: none; padding-top: 44px; }
-  .detail-runway { flex: none; aspect-ratio: 16 / 9; }
+  .detail-runway { flex: none; height: 60vh; }
 }
 
 @media (max-width: 560px) {

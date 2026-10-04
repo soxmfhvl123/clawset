@@ -356,6 +356,110 @@ const MODEL_DATA = {
   },
 };
 
+// Lookbook photos + clips per model — [path, width, height]; generated from the lookbook/ folders
+const LOOKBOOK = {
+  luka: [
+    ['lookbook/01_LUKA/Seedream5.0_Pro_T2I_00013.png', 1024, 1024],
+    ['lookbook/01_LUKA/Seedream5.0_Pro_T2I_00015.png', 1024, 1024],
+    ['lookbook/01_LUKA/djinc_httpss.mj.runYH_yJrcncn8_slight_motion_--ar_34_--video__5c01da52-8a73-477e-938e-50ac456195e0_3.mp4', 544, 720],
+  ],
+  onyx: [
+    ['lookbook/02_ONYX/GPT_image_2.5_flare_t2i_00001_.png', 1024, 1536],
+    ['lookbook/02_ONYX/Seedream5.0_Pro_T2I_00010.png', 1024, 1024],
+    ['lookbook/02_ONYX/Seedream5.0_Pro_T2I_00021.png', 1024, 1024],
+  ],
+  tuco: [
+    ['lookbook/03_TUCO/GPT_image_2.5_flare_t2i_00001_ (5).png', 1024, 1536],
+    ['lookbook/03_TUCO/Seedream5.0_Pro_T2I_00001 (4).png', 1024, 1024],
+    ['lookbook/03_TUCO/Seedream5.0_Pro_T2I_00003.png', 1024, 1024],
+  ],
+  bianca: [
+    ['lookbook/04_BIANCA/GPT_image_2.5_flare_t2i_00001_ (2).png', 1024, 1536],
+    ['lookbook/04_BIANCA/Seedream5.0_Pro_T2I_00002.png', 1024, 1024],
+    ['lookbook/04_BIANCA/Seedream5.0_Pro_T2I_00006.png', 1024, 1024],
+    ['lookbook/04_BIANCA/djinc_httpss.mj.runGZuKzfpEsrI_slight_motion_--ar_34_--video__9ab8c044-d407-42d0-8600-b2c38ae054c0_2.mp4', 544, 720],
+  ],
+  dupree: [
+    ['lookbook/05_DUPREE/GPT_image_2.5_flare_t2i_00001_ (4).png', 1024, 1536],
+    ['lookbook/05_DUPREE/Seedream5.0_Pro_T2I_00014.png', 1024, 1024],
+    ['lookbook/05_DUPREE/djinc_httpss.mj.runrcbtFVbnCkg_slight_motion_--ar_34_--video__d91225aa-1de9-4075-86a3-7234e50dc73d_3.mp4', 544, 720],
+  ],
+  arthur: [
+    ['lookbook/06_ARTHUR/Seedream5.0_Pro_T2I_00001 (3).png', 1024, 1024],
+    ['lookbook/06_ARTHUR/Seedream5.0_Pro_T2I_00008.png', 1024, 1024],
+    ['lookbook/06_ARTHUR/djinc_httpss.mj.runU2X5uWZvtlQ_slight_motion_--ar_34_--video__c7b6f84b-94b5-4b03-819f-7adfb761365b_0.mp4', 544, 720],
+  ],
+  valka: [
+    ['lookbook/07_VALKA/Seedream5.0_Pro_T2I_00001.png', 1024, 1024],
+    ['lookbook/07_VALKA/Seedream5.0_Pro_T2I_00007.png', 1024, 1024],
+    ['lookbook/07_VALKA/Seedream5.0_Pro_T2I_00009.png', 1024, 1024],
+  ],
+  jinx: [
+    ['lookbook/08_JINX/Seedream5.0_Pro_T2I_00001 (1).png', 1024, 1024],
+    ['lookbook/08_JINX/Seedream5.0_Pro_T2I_00016.png', 1024, 1024],
+    ['lookbook/08_JINX/Seedream5.0_Pro_T2I_00019.png', 1024, 1024],
+    ['lookbook/08_JINX/djinc_httpss.mj.run9g4Lo1-2dJ4_slight_motion_--ar_34_--video__176b081c-e07b-4562-bc6c-2ceb0b2a26c3_3.mp4', 544, 720],
+  ],
+  roman: [
+    ['lookbook/09_ROMAN/Seedream5.0_Pro_T2I_00001 (2).png', 1024, 1024],
+    ['lookbook/09_ROMAN/Seedream5.0_Pro_T2I_00012.png', 1024, 1024],
+    ['lookbook/09_ROMAN/Seedream5.0_Pro_T2I_00017.png', 1024, 1024],
+  ],
+  soren: [
+    ['lookbook/10_SOREN/Seedream5.0_Pro_T2I_00002.png', 1024, 1024],
+  ],
+  kael: [
+    ['lookbook/11_KAEL/Seedream5.0_Pro_T2I_00001 (5).png', 1024, 1024],
+    ['lookbook/11_KAEL/Seedream5.0_Pro_T2I_00015.png', 1024, 1024],
+  ],
+  zane: [
+    ['lookbook/12_ZANE/Seedream5.0_Pro_T2I_00018.png', 1024, 1024],
+  ],
+  lucian: [
+    ['lookbook/13_LUCIAN/Seedream5.0_Pro_T2I_00001.png', 1024, 1024],
+    ['lookbook/13_LUCIAN/djinc_httpss.mj.runeX5GWzUaCvQ_slight_motion_--ar_34_--video__b23e8e70-d95e-48ab-a94d-52e90745bc4c_2.mp4', 544, 720],
+    ['lookbook/13_LUCIAN/djinc_httpss.mj.runeX5GWzUaCvQ_slight_motion_--ar_34_--video__b23e8e70-d95e-48ab-a94d-52e90745bc4c_3.mp4', 544, 720],
+    ['lookbook/13_LUCIAN/djinc_httpss.mj.runy94mmMoc_2Q_slight_motion_--ar_43_--video__21d785db-540b-4d03-bba4-c7d50b949f62_1.mp4', 720, 544],
+  ],
+  anya: [
+    ['lookbook/14_ANYA/Seedream5.0_Pro_T2I_00007.png', 1024, 1024],
+    ['lookbook/14_ANYA/djinc_httpss.mj.runJhDuNcb0Utk_slight_motion_--ar_34_--video__ead1e734-c7ce-4705-9986-59f0e8e42642_3.mp4', 544, 720],
+  ],
+  milo: [
+    ['lookbook/15_MILO/Seedream5.0_Pro_T2I_00001 (7).png', 1024, 1024],
+    ['lookbook/15_MILO/Seedream5.0_Pro_T2I_00005.png', 1024, 1024],
+    ['lookbook/15_MILO/djinc_httpss.mj.runGoKWcFnXPSI_slight_motion_--ar_43_--video__436e1cfe-26a1-4592-b032-e29f5ace5a4e_3.mp4', 720, 544],
+    ['lookbook/15_MILO/fefwef.png', 1024, 1024],
+  ],
+  jackson: [
+    ['lookbook/16_JACKSON/Seedream5.0_Pro_T2I_00017.png', 1024, 1024],
+    ['lookbook/16_JACKSON/Seedream5.0_Pro_T2I_00018.png', 1024, 1024],
+  ],
+  caspian: [
+    ['lookbook/17_CASPIAN/Seedream5.0_Pro_T2I_00001 (10).png', 1024, 1024],
+    ['lookbook/17_CASPIAN/Seedream5.0_Pro_T2I_00001 (12).png', 1024, 1024],
+    ['lookbook/17_CASPIAN/Seedream5.0_Pro_T2I_00016.png', 1024, 1024],
+  ],
+  freya: [
+    ['lookbook/18_FREYA/Seedream5.0_Pro_T2I_00021.png', 1024, 1024],
+    ['lookbook/18_FREYA/feggg.png', 1024, 1024],
+  ],
+  gideon: [
+    ['lookbook/19_GIDEON/Seedream5.0_Pro_T2I_00011.png', 1024, 1024],
+  ],
+  ophelia: [
+    ['lookbook/20_OPHELIA/Seedream5.0_Pro_T2I_00001 (6).png', 1024, 1024],
+    ['lookbook/20_OPHELIA/Seedream5.0_Pro_T2I_00020.png', 1024, 1024],
+    ['lookbook/20_OPHELIA/gdsrwgwe.png', 1024, 1024],
+  ],
+  tilly: [
+    ['lookbook/21_TILLY/Seedream5.0_Pro_T2I_00001 (11).png', 1024, 1024],
+    ['lookbook/21_TILLY/Seedream5.0_Pro_T2I_00003.png', 1024, 1024],
+  ],
+};
+
+
+
 // Display order on the page
 const ORDER = [
   'luka', 'onyx', 'bianca', 'dupree', 'arthur', 'valka', 'jinx',
@@ -440,15 +544,56 @@ function positionPanel() {
   panel.style.height = r.height + 'px';
 }
 
-window.addEventListener('resize', positionPanel);
+// Runway strip: runway clip + lookbook photos flow left in an endless loop.
+// The set is repeated until it covers the strip plus one extra set, then the
+// track shifts by exactly one set width so the loop is seamless.
+const MARQUEE_SPEED = 60; // px / second
+
+function setupMarquee() {
+  const box = panelInner.querySelector('.runway-looks');
+  if (!box) return;
+  const track = box.querySelector('.looks-track');
+  track.querySelectorAll('[data-clone]').forEach(el => el.remove());
+
+  const originals = [...track.children];
+  const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+  const setW = track.scrollWidth + gap; // one set incl. the gap before the next set
+  if (setW <= gap) return;
+
+  const copies = Math.ceil(box.clientWidth / setW) + 1;
+  for (let i = 0; i < copies; i++) {
+    originals.forEach(el => {
+      const clone = el.cloneNode(true);
+      clone.dataset.clone = '';
+      if (clone.tagName === 'IMG') clone.alt = '';
+      if (clone.tagName === 'VIDEO') {
+        clone.muted = true;
+        clone.play().catch(() => {});
+      }
+      track.appendChild(clone);
+    });
+  }
+  track.style.setProperty('--marquee-shift', `-${setW}px`);
+  track.style.setProperty('--marquee-dur', `${setW / MARQUEE_SPEED}s`);
+  box.classList.add('is-marquee');
+}
+
+window.addEventListener('resize', () => { positionPanel(); setupMarquee(); });
 window.addEventListener('load', positionPanel);
 
 function openDetail(modelKey) {
   const m = MODEL_DATA[modelKey];
   if (!m) return;
   // Runway scene: add `runway: 'path/to/video.mp4'` to a model in MODEL_DATA
-  const runway = m.runway
-    ? `<div class="detail-runway"><video src="${m.runway}" muted loop playsinline autoplay></video></div>`
+  // Runway clip first, then the lookbook photos — all in one looping strip
+  const items = [
+    m.runway ? `<video src="${m.runway}" muted loop playsinline autoplay></video>` : '',
+    ...(LOOKBOOK[modelKey] || []).map(([src, w, h]) => /\.(mp4|webm)$/i.test(src)
+      ? `<video src="${encodeURI(src)}" style="aspect-ratio: ${w} / ${h}" muted loop playsinline autoplay></video>`
+      : `<img src="${encodeURI(src)}" width="${w}" height="${h}" alt="${m.name} lookbook" />`),
+  ].join('');
+  const runway = items
+    ? `<div class="detail-runway"><div class="runway-looks"><div class="looks-track">${items}</div></div></div>`
     : `<div class="detail-runway is-empty">Runway</div>`;
 
   panelInner.innerHTML = `
@@ -472,6 +617,7 @@ function openDetail(modelKey) {
 
   activeKey = modelKey;
   positionPanel();
+  setupMarquee();
   document.body.classList.add('detail-open');
   panel.setAttribute('aria-hidden', 'false');
 }
@@ -512,18 +658,20 @@ isNarrow.addEventListener('change', () => { closeDetail(); updateActiveFromScrol
 
 // Entries: hover plays video; tap opens detail on narrow screens only
 document.querySelectorAll('.model-entry').forEach(entry => {
-  const vid = entry.querySelector('video');
+  const media = entry.querySelector('.entry-media');
+  const vid = media.querySelector('video');
 
   vid.addEventListener('playing', () => vid.classList.add('ready'));
 
-  entry.addEventListener('mouseenter', () => {
+  // Hover only on the main photo, not the lookbook row
+  media.addEventListener('mouseenter', () => {
     vid.currentTime = 0;
     vid.play().catch(() => {});
   });
 
-  entry.addEventListener('mouseleave', () => vid.pause());
+  media.addEventListener('mouseleave', () => vid.pause());
 
-  entry.addEventListener('click', () => {
+  media.addEventListener('click', () => {
     if (isNarrow.matches) openDetail(entry.dataset.model);
   });
 });

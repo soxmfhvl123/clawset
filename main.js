@@ -90,7 +90,7 @@ const MODEL_DATA = {
     hobby: 'High-jump (높이뛰기)',
     habit: 'Tail flicking (꼬리 까딱거리기)',
     favorite: 'Vermilion (버밀리온 레드)',
-    image: 'img/models/model_Luka_Siamese Lynx Point.png',
+    image: 'img/models/model_Luka_Siamese Lynx Point.webp',
     runway: 'runway/luka.mp4',
   },
   onyx: {
@@ -103,7 +103,7 @@ const MODEL_DATA = {
     hobby: 'Shadow hunting (그림자 쫓기)',
     habit: 'Slow blinking (느리게 눈 깜빡이기)',
     favorite: 'Ochre (황토색, 오커)',
-    image: 'img/models/model_Onyx.png',
+    image: 'img/models/model_Onyx.webp',
     runway: 'runway/onyx.mp4',
   },
   tuco: {
@@ -116,7 +116,7 @@ const MODEL_DATA = {
     hobby: 'Dust particle tracking (먼지 움직임 관찰)',
     habit: 'Kneading (꾹꾹이)',
     favorite: 'Emerald Green (에메랄드 그린)',
-    image: 'img/models/model_Tuco_Russian Blue.png',
+    image: 'img/models/model_Tuco_Russian Blue.webp',
     runway: 'runway/tuco.mp4',
   },
   bianca: {
@@ -129,7 +129,7 @@ const MODEL_DATA = {
     hobby: 'Being groomed (털 관리 받기)',
     habit: 'Chin resting (턱 괴고 있기)',
     favorite: 'Pearl White (펄 화이트)',
-    image: 'img/models/model_Bianca_Persian Chinchilla.png',
+    image: 'img/models/model_Bianca_Persian Chinchilla.webp',
     runway: 'runway/bianca.mp4',
   },
   dupree: {
@@ -143,7 +143,7 @@ const MODEL_DATA = {
     hobby: 'Laser tag (레이저 포인터 잡기)',
     habit: 'Pouncing (사냥 자세 취하기)',
     favorite: 'Charcoal (차콜 블랙)',
-    image: 'img/models/model_Dupree_Bengal.png',
+    image: 'img/models/model_Dupree_Bengal.webp',
     runway: 'runway/DUPREE.mp4',
   },
   arthur: {
@@ -156,7 +156,7 @@ const MODEL_DATA = {
     hobby: 'People watching (사람 구경하기)',
     habit: 'Napping upright (앉아서 졸기)',
     favorite: 'Navy Blue (네이비 블루)',
-    image: 'img/models/model_Arthur_British Shorthair.png',
+    image: 'img/models/model_Arthur_British Shorthair.webp',
     runway: 'runway/ARTHUR.mp4',
   },
   valka: {
@@ -169,7 +169,7 @@ const MODEL_DATA = {
     hobby: 'Bird watching (창밖 새 구경)',
     habit: 'Chirping (채터링, 새 소리 흉내 내기)',
     favorite: 'Frosted Silver (프로스테드 실버)',
-    image: 'img/models/model_Valka_Maine Coon.png',
+    image: 'img/models/model_Valka_Maine Coon.webp',
     runway: 'runway/valka.mp4',
   },
   jinx: {
@@ -182,7 +182,7 @@ const MODEL_DATA = {
     hobby: 'Singing (우아하게 울기)',
     habit: 'Paw stretching (앞발 쭉 뻗기)',
     favorite: 'Espresso (에스프레소 브라운)',
-    image: 'img/models/model_Jinx_Turkish Angora.png',
+    image: 'img/models/model_Jinx_Turkish Angora.webp',
     runway: 'runway/jinx.mp4',
   },
   roman: {
@@ -195,7 +195,7 @@ const MODEL_DATA = {
     hobby: 'Hiking (산책 고양이)',
     habit: 'Head-butting (머리 들이밀기)',
     favorite: 'Forest Green (포레스트 그린)',
-    image: 'img/models/model_Roman_Siamese.png',
+    image: 'img/models/model_Roman_Siamese.webp',
     runway: 'runway/roman.mp4',
   },
   soren: {
@@ -208,7 +208,7 @@ const MODEL_DATA = {
     hobby: 'Feather play (깃털 장난감 놀이)',
     habit: 'Tail waving (꼬리 살랑거리기)',
     favorite: 'Burnt Orange (번트 오렌지)',
-    image: 'img/models/model_Soren_Norwegian Forest.png',
+    image: 'img/models/model_Soren_Norwegian Forest.webp',
     runway: 'runway/soren.mp4',
   },
   kael: {
@@ -221,7 +221,7 @@ const MODEL_DATA = {
     hobby: 'Cube sitting (네모난 박스 들어가기)',
     habit: 'Ear twitching (귀 쫑긋거리기)',
     favorite: 'Slate Grey (슬레이트 그레이)',
-    image: 'img/models/model_Kael_British Shorthair.png',
+    image: 'img/models/model_Kael_British Shorthair.webp',
     runway: 'runway/kael.mp4',
   },
   zane: {
@@ -234,7 +234,7 @@ const MODEL_DATA = {
     hobby: 'Puzzle toys (노즈워크 퍼즐 풀기)',
     habit: 'High-perching (높은 곳에 올라가 앉아있기)',
     favorite: 'Pale Lilac (페일 라일락)',
-    image: 'img/models/model_Zane_Somali.png',
+    image: 'img/models/model_Zane_Somali.webp',
     runway: 'runway/zane.mp4',
   },
   lucian: {
@@ -247,7 +247,7 @@ const MODEL_DATA = {
     hobby: 'Fetching (공 물어오기)',
     habit: 'Muzzle twitching (수염 파르르 떨기)',
     favorite: 'Copper Gold (코퍼 골드)',
-    image: 'img/models/model_Lucian_Bombay.png',
+    image: 'img/models/model_Lucian_Bombay.webp',
     runway: 'runway/LUCIAN.mp4',
   },
   anya: {
@@ -260,7 +260,7 @@ const MODEL_DATA = {
     hobby: 'Cuddling (품에 안겨있기)',
     habit: 'Flopping (바닥에 툭 쓰러지며 눕기)',
     favorite: 'Sky Blue (스카이 블루)',
-    image: 'img/models/model_Anya_Ragdoll.png',
+    image: 'img/models/model_Anya_Ragdoll.webp',
     runway: 'runway/anya.mp4',
   },
   milo: {
@@ -273,7 +273,7 @@ const MODEL_DATA = {
     hobby: 'Window gazing (가만히 바깥 풍경 보기)',
     habit: 'Sitting like a human (사람처럼 엉덩이 대고 앉기)',
     favorite: 'Soft Beige (소프트 베이지)',
-    image: 'img/models/model_Milo_Scottish Fold.png',
+    image: 'img/models/model_Milo_Scottish Fold.webp',
     runway: 'runway/milo.mp4',
   },
   jackson: {
@@ -286,7 +286,7 @@ const MODEL_DATA = {
     hobby: 'Acrobatics (공중 점프)',
     habit: 'Leg rubbing (사람 다리에 몸 비비기)',
     favorite: 'Champagne Gold (샴페인 골드)',
-    image: 'img/models/model_Jackson_Siamese.png',
+    image: 'img/models/model_Jackson_Siamese.webp',
     runway: 'runway/jaxkson.mp4',
   },
   caspian: {
@@ -299,7 +299,7 @@ const MODEL_DATA = {
     hobby: 'Water splashing',
     habit: 'Tail thumping',
     favorite: 'Terracotta',
-    image: 'img/models/model_CASPIAN_ragdoll.png',
+    image: 'img/models/model_CASPIAN_ragdoll.webp',
     runway: 'runway/caspian.mp4',
   },
   freya: {
@@ -312,7 +312,7 @@ const MODEL_DATA = {
     hobby: 'Snow gazing',
     habit: 'Heavy purring',
     favorite: 'Ice Silver',
-    image: 'img/models/model_FREYA_Siberian.png',
+    image: 'img/models/model_FREYA_Siberian.webp',
     runway: 'runway/freya.mp4',
   },
   gideon: {
@@ -325,7 +325,7 @@ const MODEL_DATA = {
     hobby: 'Unlocking doors',
     habit: 'Tilting head 45 degrees',
     favorite: 'Mustard Yellow',
-    image: 'img/models/model_GIDEON_Egyptian Mau.png',
+    image: 'img/models/model_GIDEON_Egyptian Mau.webp',
     runway: 'runway/gideon.mp4',
   },
   ophelia: {
@@ -338,7 +338,7 @@ const MODEL_DATA = {
     hobby: 'Following shadows',
     habit: 'Elegant tail wrapping',
     favorite: 'Lavender White',
-    image: 'img/models/model_OPHELIA_Turkish Van.png',
+    image: 'img/models/model_OPHELIA_Turkish Van.webp',
     runway: 'runway/ophelia.mp4',
   },
   tilly: {
@@ -351,7 +351,7 @@ const MODEL_DATA = {
     hobby: 'Standing on hind legs',
     habit: 'Toy hoarding',
     favorite: 'Pastel Coral',
-    image: 'img/models/model_TILLY_Munchkin.png',
+    image: 'img/models/model_TILLY_Munchkin.webp',
     runway: 'runway/tilly.mp4',
   },
 };
@@ -359,104 +359,105 @@ const MODEL_DATA = {
 // Lookbook photos + clips per model — [path, width, height]; generated from the lookbook/ folders
 const LOOKBOOK = {
   luka: [
-    ['lookbook/01_LUKA/Seedream5.0_Pro_T2I_00013.png', 1024, 1024],
-    ['lookbook/01_LUKA/Seedream5.0_Pro_T2I_00015.png', 1024, 1024],
+    ['lookbook/01_LUKA/Seedream5.0_Pro_T2I_00013.webp', 1024, 1024],
+    ['lookbook/01_LUKA/Seedream5.0_Pro_T2I_00015.webp', 1024, 1024],
     ['lookbook/01_LUKA/djinc_httpss.mj.runYH_yJrcncn8_slight_motion_--ar_34_--video__5c01da52-8a73-477e-938e-50ac456195e0_3.mp4', 544, 720],
   ],
   onyx: [
-    ['lookbook/02_ONYX/GPT_image_2.5_flare_t2i_00001_.png', 1024, 1536],
-    ['lookbook/02_ONYX/Seedream5.0_Pro_T2I_00010.png', 1024, 1024],
-    ['lookbook/02_ONYX/Seedream5.0_Pro_T2I_00021.png', 1024, 1024],
+    ['lookbook/02_ONYX/GPT_image_2.5_flare_t2i_00001_.webp', 1024, 1536],
+    ['lookbook/02_ONYX/Seedream5.0_Pro_T2I_00010.webp', 1024, 1024],
+    ['lookbook/02_ONYX/Seedream5.0_Pro_T2I_00021.webp', 1024, 1024],
   ],
   tuco: [
-    ['lookbook/03_TUCO/GPT_image_2.5_flare_t2i_00001_ (5).png', 1024, 1536],
-    ['lookbook/03_TUCO/Seedream5.0_Pro_T2I_00001 (4).png', 1024, 1024],
-    ['lookbook/03_TUCO/Seedream5.0_Pro_T2I_00003.png', 1024, 1024],
+    ['lookbook/03_TUCO/GPT_image_2.5_flare_t2i_00001_ (5).webp', 1024, 1536],
+    ['lookbook/03_TUCO/Seedream5.0_Pro_T2I_00001 (4).webp', 1024, 1024],
+    ['lookbook/03_TUCO/Seedream5.0_Pro_T2I_00003.webp', 1024, 1024],
   ],
   bianca: [
-    ['lookbook/04_BIANCA/GPT_image_2.5_flare_t2i_00001_ (2).png', 1024, 1536],
-    ['lookbook/04_BIANCA/Seedream5.0_Pro_T2I_00002.png', 1024, 1024],
-    ['lookbook/04_BIANCA/Seedream5.0_Pro_T2I_00006.png', 1024, 1024],
+    ['lookbook/04_BIANCA/GPT_image_2.5_flare_t2i_00001_ (2).webp', 1024, 1536],
+    ['lookbook/04_BIANCA/Seedream5.0_Pro_T2I_00002.webp', 1024, 1024],
+    ['lookbook/04_BIANCA/Seedream5.0_Pro_T2I_00006.webp', 1024, 1024],
     ['lookbook/04_BIANCA/djinc_httpss.mj.runGZuKzfpEsrI_slight_motion_--ar_34_--video__9ab8c044-d407-42d0-8600-b2c38ae054c0_2.mp4', 544, 720],
   ],
   dupree: [
-    ['lookbook/05_DUPREE/GPT_image_2.5_flare_t2i_00001_ (4).png', 1024, 1536],
-    ['lookbook/05_DUPREE/Seedream5.0_Pro_T2I_00014.png', 1024, 1024],
+    ['lookbook/05_DUPREE/GPT_image_2.5_flare_t2i_00001_ (4).webp', 1024, 1536],
+    ['lookbook/05_DUPREE/Seedream5.0_Pro_T2I_00014.webp', 1024, 1024],
     ['lookbook/05_DUPREE/djinc_httpss.mj.runrcbtFVbnCkg_slight_motion_--ar_34_--video__d91225aa-1de9-4075-86a3-7234e50dc73d_3.mp4', 544, 720],
   ],
   arthur: [
-    ['lookbook/06_ARTHUR/Seedream5.0_Pro_T2I_00001 (3).png', 1024, 1024],
-    ['lookbook/06_ARTHUR/Seedream5.0_Pro_T2I_00008.png', 1024, 1024],
+    ['lookbook/06_ARTHUR/Seedream5.0_Pro_T2I_00001 (3).webp', 1024, 1024],
+    ['lookbook/06_ARTHUR/Seedream5.0_Pro_T2I_00008.webp', 1024, 1024],
     ['lookbook/06_ARTHUR/djinc_httpss.mj.runU2X5uWZvtlQ_slight_motion_--ar_34_--video__c7b6f84b-94b5-4b03-819f-7adfb761365b_0.mp4', 544, 720],
   ],
   valka: [
-    ['lookbook/07_VALKA/Seedream5.0_Pro_T2I_00001.png', 1024, 1024],
-    ['lookbook/07_VALKA/Seedream5.0_Pro_T2I_00007.png', 1024, 1024],
-    ['lookbook/07_VALKA/Seedream5.0_Pro_T2I_00009.png', 1024, 1024],
+    ['lookbook/07_VALKA/Seedream5.0_Pro_T2I_00001.webp', 1024, 1024],
+    ['lookbook/07_VALKA/Seedream5.0_Pro_T2I_00007.webp', 1024, 1024],
+    ['lookbook/07_VALKA/Seedream5.0_Pro_T2I_00009.webp', 1024, 1024],
   ],
   jinx: [
-    ['lookbook/08_JINX/Seedream5.0_Pro_T2I_00001 (1).png', 1024, 1024],
-    ['lookbook/08_JINX/Seedream5.0_Pro_T2I_00016.png', 1024, 1024],
-    ['lookbook/08_JINX/Seedream5.0_Pro_T2I_00019.png', 1024, 1024],
+    ['lookbook/08_JINX/Seedream5.0_Pro_T2I_00001 (1).webp', 1024, 1024],
+    ['lookbook/08_JINX/Seedream5.0_Pro_T2I_00016.webp', 1024, 1024],
+    ['lookbook/08_JINX/Seedream5.0_Pro_T2I_00019.webp', 1024, 1024],
     ['lookbook/08_JINX/djinc_httpss.mj.run9g4Lo1-2dJ4_slight_motion_--ar_34_--video__176b081c-e07b-4562-bc6c-2ceb0b2a26c3_3.mp4', 544, 720],
   ],
   roman: [
-    ['lookbook/09_ROMAN/Seedream5.0_Pro_T2I_00001 (2).png', 1024, 1024],
-    ['lookbook/09_ROMAN/Seedream5.0_Pro_T2I_00012.png', 1024, 1024],
-    ['lookbook/09_ROMAN/Seedream5.0_Pro_T2I_00017.png', 1024, 1024],
+    ['lookbook/09_ROMAN/Seedream5.0_Pro_T2I_00001 (2).webp', 1024, 1024],
+    ['lookbook/09_ROMAN/Seedream5.0_Pro_T2I_00012.webp', 1024, 1024],
+    ['lookbook/09_ROMAN/Seedream5.0_Pro_T2I_00017.webp', 1024, 1024],
   ],
   soren: [
-    ['lookbook/10_SOREN/Seedream5.0_Pro_T2I_00002.png', 1024, 1024],
+    ['lookbook/10_SOREN/Seedream5.0_Pro_T2I_00002.webp', 1024, 1024],
   ],
   kael: [
-    ['lookbook/11_KAEL/Seedream5.0_Pro_T2I_00001 (5).png', 1024, 1024],
-    ['lookbook/11_KAEL/Seedream5.0_Pro_T2I_00015.png', 1024, 1024],
+    ['lookbook/11_KAEL/Seedream5.0_Pro_T2I_00001 (5).webp', 1024, 1024],
+    ['lookbook/11_KAEL/Seedream5.0_Pro_T2I_00015.webp', 1024, 1024],
   ],
   zane: [
-    ['lookbook/12_ZANE/Seedream5.0_Pro_T2I_00018.png', 1024, 1024],
+    ['lookbook/12_ZANE/Seedream5.0_Pro_T2I_00018.webp', 1024, 1024],
   ],
   lucian: [
-    ['lookbook/13_LUCIAN/Seedream5.0_Pro_T2I_00001.png', 1024, 1024],
+    ['lookbook/13_LUCIAN/Seedream5.0_Pro_T2I_00001.webp', 1024, 1024],
     ['lookbook/13_LUCIAN/djinc_httpss.mj.runeX5GWzUaCvQ_slight_motion_--ar_34_--video__b23e8e70-d95e-48ab-a94d-52e90745bc4c_2.mp4', 544, 720],
     ['lookbook/13_LUCIAN/djinc_httpss.mj.runeX5GWzUaCvQ_slight_motion_--ar_34_--video__b23e8e70-d95e-48ab-a94d-52e90745bc4c_3.mp4', 544, 720],
     ['lookbook/13_LUCIAN/djinc_httpss.mj.runy94mmMoc_2Q_slight_motion_--ar_43_--video__21d785db-540b-4d03-bba4-c7d50b949f62_1.mp4', 720, 544],
   ],
   anya: [
-    ['lookbook/14_ANYA/Seedream5.0_Pro_T2I_00007.png', 1024, 1024],
+    ['lookbook/14_ANYA/Seedream5.0_Pro_T2I_00007.webp', 1024, 1024],
     ['lookbook/14_ANYA/djinc_httpss.mj.runJhDuNcb0Utk_slight_motion_--ar_34_--video__ead1e734-c7ce-4705-9986-59f0e8e42642_3.mp4', 544, 720],
   ],
   milo: [
-    ['lookbook/15_MILO/Seedream5.0_Pro_T2I_00001 (7).png', 1024, 1024],
-    ['lookbook/15_MILO/Seedream5.0_Pro_T2I_00005.png', 1024, 1024],
+    ['lookbook/15_MILO/Seedream5.0_Pro_T2I_00001 (7).webp', 1024, 1024],
+    ['lookbook/15_MILO/Seedream5.0_Pro_T2I_00005.webp', 1024, 1024],
     ['lookbook/15_MILO/djinc_httpss.mj.runGoKWcFnXPSI_slight_motion_--ar_43_--video__436e1cfe-26a1-4592-b032-e29f5ace5a4e_3.mp4', 720, 544],
-    ['lookbook/15_MILO/fefwef.png', 1024, 1024],
+    ['lookbook/15_MILO/fefwef.webp', 1024, 1024],
   ],
   jackson: [
-    ['lookbook/16_JACKSON/Seedream5.0_Pro_T2I_00017.png', 1024, 1024],
-    ['lookbook/16_JACKSON/Seedream5.0_Pro_T2I_00018.png', 1024, 1024],
+    ['lookbook/16_JACKSON/Seedream5.0_Pro_T2I_00017.webp', 1024, 1024],
+    ['lookbook/16_JACKSON/Seedream5.0_Pro_T2I_00018.webp', 1024, 1024],
   ],
   caspian: [
-    ['lookbook/17_CASPIAN/Seedream5.0_Pro_T2I_00001 (10).png', 1024, 1024],
-    ['lookbook/17_CASPIAN/Seedream5.0_Pro_T2I_00001 (12).png', 1024, 1024],
-    ['lookbook/17_CASPIAN/Seedream5.0_Pro_T2I_00016.png', 1024, 1024],
+    ['lookbook/17_CASPIAN/Seedream5.0_Pro_T2I_00001 (10).webp', 1024, 1024],
+    ['lookbook/17_CASPIAN/Seedream5.0_Pro_T2I_00001 (12).webp', 1024, 1024],
+    ['lookbook/17_CASPIAN/Seedream5.0_Pro_T2I_00016.webp', 1024, 1024],
   ],
   freya: [
-    ['lookbook/18_FREYA/Seedream5.0_Pro_T2I_00021.png', 1024, 1024],
-    ['lookbook/18_FREYA/feggg.png', 1024, 1024],
+    ['lookbook/18_FREYA/Seedream5.0_Pro_T2I_00021.webp', 1024, 1024],
+    ['lookbook/18_FREYA/feggg.webp', 1024, 1024],
   ],
   gideon: [
-    ['lookbook/19_GIDEON/Seedream5.0_Pro_T2I_00011.png', 1024, 1024],
+    ['lookbook/19_GIDEON/Seedream5.0_Pro_T2I_00011.webp', 1024, 1024],
   ],
   ophelia: [
-    ['lookbook/20_OPHELIA/Seedream5.0_Pro_T2I_00001 (6).png', 1024, 1024],
-    ['lookbook/20_OPHELIA/Seedream5.0_Pro_T2I_00020.png', 1024, 1024],
-    ['lookbook/20_OPHELIA/gdsrwgwe.png', 1024, 1024],
+    ['lookbook/20_OPHELIA/Seedream5.0_Pro_T2I_00001 (6).webp', 1024, 1024],
+    ['lookbook/20_OPHELIA/Seedream5.0_Pro_T2I_00020.webp', 1024, 1024],
+    ['lookbook/20_OPHELIA/gdsrwgwe.webp', 1024, 1024],
   ],
   tilly: [
-    ['lookbook/21_TILLY/Seedream5.0_Pro_T2I_00001 (11).png', 1024, 1024],
-    ['lookbook/21_TILLY/Seedream5.0_Pro_T2I_00003.png', 1024, 1024],
+    ['lookbook/21_TILLY/Seedream5.0_Pro_T2I_00001 (11).webp', 1024, 1024],
+    ['lookbook/21_TILLY/Seedream5.0_Pro_T2I_00003.webp', 1024, 1024],
   ],
 };
+
 
 
 
@@ -491,7 +492,7 @@ introText.innerHTML =
 const list = document.getElementById('modelsList');
 list.innerHTML = ORDER.map(k => {
   const m = MODEL_DATA[k];
-  const video = m.image.replace(/\.png$/, '.mp4');
+  const video = m.image.replace(/\.webp$/, '.mp4');
   return `
     <article class="model-entry" id="model-${k}" data-model="${k}">
       <dl class="spec">
